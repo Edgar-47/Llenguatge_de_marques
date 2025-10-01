@@ -3,52 +3,63 @@
     <head>
         <meta charset="utf-8">
         <title>Document de treball</title>
+        <style>
+            .TitulosFigura {
+                color:rgb(0, 150, 150);
+            }
+            .TituloPrincipal{
+                color:rgb(1, 61, 61);
+            }
+            .TituloCapitulo{
+                color:rgb(1, 85, 85);
+            }
+        </style>
     </head>
     <body>
-        <h1>Bloc 1: Característiques bàsiques i text</h1>
-        <h2>Capítol 2: Característiques bàsiques</h2>
-        <h3>Figura 2.3: Etiqueta p i strong</h3>
+        <h1 class="TituloPrincipal">Bloc 1: Característiques bàsiques i text</h1>
+        <h2 class="TituloCapitulo">Capítol 2: Característiques bàsiques</h2>
+        <h3 class="TitulosFigura">Figura 2.3: Etiqueta p i strong</h3>
         <p>
             El lenguaje HTML es <strong>tan sencillo </strong>que practicamente se entiende sin estudiar el significado de sus etiquetas principales.
         </p>
-        <h3>Figura 2.5: Etiqueta em i etiqueta del</h3>
+        <h3 class="TitulosFigura">Figura 2.5: Etiqueta em i etiqueta del</h3>
         <p>
             Ademas de textos en <strong>negrita</strong>, tambien se pueden poner <em>en cursiva o</em> <del>tachados.</del>
         </p>
-        <h3>Figura 2.6:</h3>
+        <h3 class="TitulosFigura">Figura 2.6:</h3>
         <p>
             Los enlaces son muy fáciles de indicar: Soy un enlace incompleto, porque no tengo dirección de destino.
             <a href="https://www.google.com/">Este otro enlace apunta a la pàgina de Google</a>
         </p>
-        <h2>Capítol 3: Texto</h2>
-        <h3>Figura 3.3: Ejemplos de texto HTML estructurado con pérrafos</h3>
+        <h2 class="TituloCapitulo">Capítol 3: Texto</h2>
+        <h3 class="TitulosFigura">Figura 3.3: Ejemplos de texto HTML estructurado con pérrafos</h3>
         <p>Este es el texto que forma el primer párrafo de la página. Los párrafos 
             pueden ocupar varias líneas y el navegador se encarga de ajustar 
             su longitud al tamaño de la ventana</p>
         <p>El segundo párrafo de la página también se define encerrando
             su texto con la etiqueta p. El navegador también se encarga de
             separar automáticamente cada párrafo.</p>
-        <h3>Figura 3.4: Ejemplo de texto HTML estructurado con párrafos y secciones.</h3>
+        <h3 class="TitulosFigura">Figura 3.4: Ejemplo de texto HTML estructurado con párrafos y secciones.</h3>
         <h1>Titular de la página</h1>
         <p>Párrafo de introducción...</p>
         <h2>La primera sub-sección</h2>
         <p>Párrafo de contenido...</p>
         <h2>Otra subsección</h2>
         <p>Más párrafos de contenido...</p>
-        <h3>Figura 3.5: Ejemplo de uso de las etiquetas h1, h2, h3, h4, h5 y h6</h3>
+        <h3 class="TitulosFigura">Figura 3.5: Ejemplo de uso de las etiquetas h1, h2, h3, h4, h5 y h6</h3>
         <h1>Titural de nivel 1</h1>
         <h2>Titular de nivel 2</h2>
         <h3>Titular de nivel 3</h3>
         <h4>Titular de nivel 4</h4>
         <h5>Titular de nivel 5</h5>
         <h6>Titular de nivel 6</h6>
-        <h3>Figura 3.6: Ejemplo de uso de las etiquetas em y strong</h3>
+        <h3 class="TitulosFigura">Figura 3.6: Ejemplo de uso de las etiquetas em y strong</h3>
         <p>El lenguaje HTML permite marcar algunos segmentos de texto como
             <em>muy importantes</em>y otros segmentos como <strong>los más
                  importantes</strong>
 
         </p>
-        <h3>Figura 3.7: Resultado de estructura y marcar el texto original</h3>
+        <h3 class="TitulosFigura">Figura 3.7: Resultado de estructura y marcar el texto original</h3>
         <p><strong>La exploración espacial</strong> designa los esfuerzos del ser humano en 
             estudiar el espacio y sus astros desde el punto de vista científico
              y de su explotación económica. Estos esfuerzos pueden involucrar tanto
@@ -75,22 +86,22 @@
             mundos</em> (1898) y <em>El primer hombre en la Luna</em> (1901), de <strong>H. G. Wells</strong>, también
              se concibieron ideas de exploración del espacio y de contacto con civilizaciones 
              extraterrestres.[6]​</p>
-        <h3>Figura 3.8: Ejemplo de uso de las etiquetas ins y del.</h3>
+        <h3 class="TitulosFigura">Figura 3.8: Ejemplo de uso de las etiquetas ins y del.</h3>
         <h3>Ejemplo de etiqueta ins y del</h3>
         <p>El HTML, acrónimo inglés de Hyper Text Markup Language (lenguaje de
             <del>marcado de hipertexto</del> <ins>marcas hipertextuales</ins>) 
             es un lenguaje de marcación diseñado para estructurar
             textos y presentarlos en forma de hipertexto.</p>
 
-        <h3>Figura 3.9: Ejemplo de uso de la etiqueta blockquote</h3>
+        <h3 class="TitulosFigura">Figura 3.9: Ejemplo de uso de la etiqueta blockquote</h3>
         <p>Según el W3C, el valor del atributo <em>cite</em> en las etiquetas <strong>blockquote</strong> tiene el seiguiente significado:</p>
         <blockquote>"El valor de este atributo es una dirección URL
              que indica el documento original de la cita."
         </blockquote>
-        <h3>Figura 3.10: Ejemplo de uso de la etiqueta acronym</h3>
+        <h3 class="TitulosFigura">Figura 3.10: Ejemplo de uso de la etiqueta acronym</h3>
         <p>El lenguaje <abbr title="HyperText Markup Language">HTML</abbr> es estandarizado
         por el <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
-        <h3>Figura 3.11: Texto HTML correctamente estructurado y marcado</h3>
+        <h3 class="TitulosFigura">Figura 3.11: Texto HTML correctamente estructurado y marcado</h3>
         <h3>El Ártico ha perdido el 14% de su hielo marino perenne en un solo año</h3>
         <p><strong>WASHINGTON.</strong> El hielo perenne del Ártico se redujo en un 14% durante el último 
         año, al perder <strong>720.000 kilómetros cuadrados</strong>, una superficie superior a la 
@@ -104,35 +115,76 @@
             y espectaculares. De mantenerse la situación, ésta tendrá un impacto profucndo 
             en el ambiente, así como en el transporte marino y el comercio."
         </blockquote>
-        <h3>Figura 3.12: Ejemplo de comportamiento de HTML con los espacios en blanco</h3>
+        <h3 class="TitulosFigura">Figura 3.12: Ejemplo de comportamiento de HTML con los espacios en blanco</h3>
         <p>Este primer párrafo no contiene saltos de linea ni otro tipo de espaciado.</p>
         <p>Este segundo párrafo sí que contiene saltos
             de
             línea
             y otro tipo de espaciado.</p>
-        <h3>Figura 3.13: Ejemplo de uso de la etiqueta br</h3>
+        <h3 class="TitulosFigura">Figura 3.13: Ejemplo de uso de la etiqueta br</h3>
         <p>Este primer párrafo no contiene saltos de línea ni otro tipo de espaciado.</p>
-        <p>Este segundo párrafo sí que contiene saltos <br/>
-        de <br/>
-        línea <br/>
-        y otro tipo de espaciado.</p>
-        <h3>Figura 3.14: Ejemplo de uso de espacios en blanco en HTML</h3>
+        <p>Este segundo párrafo sí que contiene saltos 
+            <br/>de <br/>línea <br/> y otro tipo de espaciado.</p>
+        <h3 class="TitulosFigura">Figura 3.14: Ejemplo de uso de espacios en blanco en HTML</h3>
         <p>Este primer párrafo no contiene saltos de línea ni otro tipo de espaciado.</p>
-        <p>Este segundo párrafo sí que contiene saltos <br/>
-        de <br/>
-        línea <br/>
+        <p>Este segundo párrafo sí que contiene saltos <br/>de <br/>línea <br/>
         y &nbsp;&nbsp; otro &nbsp; tipo &nbsp; de &nbsp; espaciado.</p>
-        <h3>Figura 3.15: Texto HTML con espacios en blanco y nuevas líneas</h3>
+        <h3 class="TitulosFigura">Figura 3.15: Texto HTML con espacios en blanco y nuevas líneas</h3>
         <h3>Cracterísticas de los planetas</h3>
-        <p>Nombre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Diametro relativo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Período orbital 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Número de lunas
-        </p>
-        <p>
-            Mercurio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-            0,382 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0,24 años 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
-        </p>
+        <pre>Nombre       Diametro relativo   Período orbital     Número de lunas
+        </pre>
         
+        <pre>Mercurio        0,382           0,24 años                   0
+            <br/>Venus           0,949           0,62 años                   0
+            <br/>Tierra          1               1 año                       1
+            <br/>Marte           0,532           1,88 años                   2
+            <br/>Júpiter         11,209          11,86 años                  49
+            <br/>Saturno         9,449           29,46 años                  52
+            <br/>Urano           4,007           84,01 años                  27
+            <br/>Neptuno         3,883           164,80 años                 13
+        
+        </pre>
+        <h3 class="TitulosFigura">Figura 3.16: Ejemplo de uso de la etiqueta pre</h3>
+        <pre>
+                        La etiqueta pre
+                respeta los espacios en blanco
+                    y
+            muestra el texto
+                    tal y como
+                está escrito
+        </pre>
+        <p>
+                        La etiqueta pre
+                respeta los espacios en blanco
+                    y
+            muestra el texto
+                    tal y como
+                está escrito
+        </p>
+        <h3 class="TitulosFigura">Figura 3.17: Ejemplo de aparición de scroll horizontal con la etiqueta pre</h3>
+        <pre>   La etiqueta pre 
+            respeta los espacios en blanco                              (líneas)
+                Y
+        muestra el texto
+            tal y compo
+          está escrito
+        </pre>
+        <h3 class="TitulosFigura">Figura 3.18: Ejemplo de uso de la etiqueta code</h3>
+        <code>
+                La etiqueta code
+            no respeta los espacios en blanco
+        </code>
+        <p>La etiqueta code es similar a la
+        etiqueta pre, sobre todo en el formato
+        del texto.</p>
+        <h3 class="TitulosFigura">Figura 3.19: Texto HTML que incluye caracteres especiales</h3>
+        <h3>Sintaxis de la etiqueta &lt;blockquote&gt;</h3>
+        <p>La sintaxis de la etiqueta &lt;blockquote&gt; se muestra
+             a continuación:
+        <br/>
+            &lt;blockquote cite="...direccion original de la cita..."&gt;Texto que se cita &lt;/blockquote&gt;
+        </p>
+
     </body>
 
 </html>
